@@ -59,14 +59,37 @@ button {
 /* CONTENT-2 */
 .content2 {
     text-align: center;
-    padding: 0px 180px;
-
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-bottom: 120px;
 }
 
 .information-header {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    padding: 22px;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-alignment {
+    text-align: center;
+}
+
+.curved-boxes {
+    height: 20vh;
+    width: 12vw;
+    margin: 0;
+    border: solid lightskyblue 5px;
+    border-radius: 25px;
+}
+
+.descriptions {
+    font-size: 20px;
 }
 
 /* CONTENT-3 */
